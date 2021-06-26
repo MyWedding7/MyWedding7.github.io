@@ -1,19 +1,4 @@
- <!-- <!DOCTYPE html>
-
- <head>
-        <title>Background Video</title>
-        <link rel="stylesheet" href="style.css">
- </head>
-    <body>
-        <div class="fullscreen-bg">
-            <video loop muted autoplay poster="poster.jpg" class="fullscreen-bg__video">
-                <source src="m.mp4" type="video/mp4">
-            </video>
-        </div>
-
-    </body> -->
-
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -81,117 +66,183 @@
 
 	</head>
 	<body>
-		<!-- <div class="fullscreen-bg">
-		<div class="container">
-			<div class = "row">
-            <video loop muted autoplay poster="poster.jpg" class="fullscreen-bg__video">
-                <source src="m.mp4" type="video/mp4">
-            </video>
-		</div>
-        </div>
-	</div> -->
-
-
-
-
-<div id="fh5co-header">
-    <div class="fullscreen-bg">
-        <class class = "row"> 
-            <video loop muted autoplay poster="poster.jpg" class="fullscreen-bg__video">
-                <source src="m.mp4" type="video/mp4">
-            </video>
-        </class>
-    </div>
-</div> 
-
 	
+	<audio hidden autoplay loop>
+		<source src="musik.mp3" type="audio/mpeg">
+	</audio>
+	
+<style>
+	body{
+		background-color: #fff1f1;
+	}
+</style>
+
+
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">
+	<nav class="fh5co-nav" role="navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-2">
+					<div id="fh5co-logo"><a href="index.html"></a></div>
+				</div>
+
+				<!-- Ini pilihan menu di atas -->
+				
+				<!-- <div class="col-xs-10 text-right menu-1">
+					<ul>
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="about.html">Story</a></li>
+						<li class="has-dropdown">
+							<a href="services.html">Wedding Events</a>
+								<ul class="dropdown">
+								<li><a href="#">Web Design</a></li>
+								<li><a href="#">eCommerce</a></li>
+								<li><a href="#">Branding</a></li>
+								<li><a href="#">API</a></li>
+							</ul> 
+						</li>
+						<li class="has-dropdown">
+							<a href="gallery.html">Gallery</a>
+								 <ul class="dropdown">
+								<li><a href="#">HTML5</a></li>
+								<li><a href="#">CSS3</a></li>
+								<li><a href="#">Sass</a></li>
+								<li><a href="#">jQuery</a></li>
+							</ul> 
+						</li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div> -->
+			</div>
+			
+		</div>
+	</nav>
+
+<!-- Headeer Sebelumnya -->
+
+	<header id="fh5co-header" >
+		<div id="fh5co-couple-story">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+						<img src="atasfiz.png" height="100" width="500">
+						<span style = "font-size: 26px; "> <br/>WEDDING INVITATION</span>
+						<h2 style="font-family: Brush Script MT; line-height: 70%; font-size: 130px;">Manshoor <br/> &amp; <br/> Hilda <br/> </h2>
+						<p style = "font-family: Anaktoria; ">#THE NEW JOURNEY OF US</p>
+		
+		<!-- <div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t">
+						<class class="display-tc animate-box" data-animate-effect="fadeIn">
+							<p style = "font-family: Brush Script MT; font-size: 136px; color: black; line-height: 70%; margin-top: 30%; margin-left: 0;">Manshoor <br/> &amp; <br/> Hilda </p>
+
+							<div class="desc-bride">
+								<p>WEDDING INVITATION</p>
+							</div> -->
+						
+							<!-- ini hitung mundur versi awal -->
+							<!-- <div class="simply-countdown simply-countdown-one"></div> -->
+
+						<!-- ini versi baru -->
+						<style>
+							body, html {
+							  height: 100%;
+							  margin: 0;
+							}
+							
+							.bgimg {
+							  background-image: url('/w3images/forestbridge.jpg');
+							  height: 100%;
+							  background-position: center;
+							  background-size: cover;
+							  position: relative;
+							  color: white;
+							  font-family: "Courier New", Courier, monospace;
+							  font-size: 50px;
+							}
+							
+							.topleft {
+							  position: absolute;
+							  top: 0;
+							  left: 16px;
+							}
+							
+							.bottomleft {
+							  position: absolute;
+							  bottom: 0;
+							  left: 16px;
+							}
+							
+							.middle {
+							  position: absolute;
+							  top: 50%;
+							  left: 50%;
+							  transform: translate(-50%, -50%);
+							  text-align: center;
+							}
+							
+							hr {
+							  margin: auto;
+							  width: 40%;
+							}
+							</style>
+							<body>
+
+							<p style = "font-family:Brush Script MT;font-size:40px;color: aqua;" id="demo"></p>
+						
+							<!-- Display the countdown timer in an element -->
+							
+							<script>
+							// Set the date we're counting down to
+							var countDownDate = new Date("July 24, 2021 10:00:00").getTime();
+							
+							// Update the count down every 1 second
+							var x = setInterval(function() {
+							
+							  // Get today's date and time
+							  var now = new Date().getTime();
+							
+							  // Find the distance between now and the count down date
+							  var distance = countDownDate - now;
+							
+							  // Time calculations for days, hours, minutes and seconds
+							  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+							  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+							  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+							  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+							
+							  // Display the result in the element with id="demo"
+							  document.getElementById("demo").innerHTML = days + "day " + hours + "hours "
+							  + minutes + "minutes " + seconds + "second ";
+							
+							  // If the count down is finished, write some text
+							  if (distance < 0) {
+								clearInterval(x);
+								document.getElementById("demo").innerHTML = "EXPIRED";
+							  }
+							}, 1000);
+							</script>
+							</body>
+
+							<!-- <p><a href="#" class="btn btn-default btn-sm">Save the date</a></p> -->
+							<p>Alhamdulillah Acara telah berlangsung</p>
+
+				</div>
+			</div>
+		</div>
+	</header>
 
 	<div id="fh5co-couple">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<h2>Hello!</h2>
-					<h3>July 24th, 2021 Cianjur, Jawa Barat</h3>
+					<h3>July 28th, 2021 Cianjur, Jawa Barat</h3>
 					<p>We invited you to celebrate our wedding</p>
-                    <!-- <style>
-                        body, html {
-                          height: 100%;
-                          margin: 0;
-                        }
-                        
-                        .bgimg {
-                          background-image: url('/w3images/forestbridge.jpg');
-                          height: 100%;
-                          background-position: center;
-                          background-size: cover;
-                          position: relative;
-                          color: white;
-                          font-family: "Courier New", Courier, monospace;
-                          font-size: 50px;
-                        }
-                        
-                        .topleft {
-                          position: absolute;
-                          top: 0;
-                          left: 16px;
-                        }
-                        
-                        .bottomleft {
-                          position: absolute;
-                          bottom: 0;
-                          left: 16px;
-                        }
-                        
-                        .middle {
-                          position: absolute;
-                          top: 50%;
-                          left: 50%;
-                          transform: translate(-50%, -50%);
-                          text-align: center;
-                        }
-                        
-                        hr {
-                          margin: auto;
-                          width: 40%;
-                        }
-                        </style>
-                        <body>
-
-							<p style = "font-family:Brush Script MT;font-size:40px;color:black;" id="demo"></p>
-						
-							<!-- Display the countdown timer in an element -->
-							
-							<!-- <script>
-								// Set the date we're counting down to
-								var countDownDate = new Date("July 24, 2021 10:00:00").getTime();
-								
-								// Update the count down every 1 second
-								var x = setInterval(function() {
-								
-								// Get today's date and time
-								var now = new Date().getTime();
-								
-								// Find the distance between now and the count down date
-								var distance = countDownDate - now;
-								
-								// Time calculations for days, hours, minutes and seconds
-								var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-								var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-								var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-								var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-								
-								// Display the result in the element with id="demo"
-								document.getElementById("demo").innerHTML = days + "day " + hours + "hours "
-								+ minutes + "minutes " + seconds + "second ";
-								
-								// If the count down is finished, write some text
-								if (distance < 0) {
-									clearInterval(x);
-									document.getElementById("demo").innerHTML = "EXPIRED";
-								}
-								}, 1000);
-                        	</script>
-                        </body> -->
 				</div>
 			</div>
 			<div class="couple-wrap animate-box">
@@ -212,6 +263,58 @@
 					<div class="desc-bride">
 						<h3>Hilda Nasrya</h3>
 						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/img_bg_3.jpg);">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<span>Our Special Events</span>
+					<h2>Wedding Events</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="display-t">
+					<div class="display-tc">
+						<div class="col-md-10 col-md-offset-1">
+							<div class="col-md-6 col-sm-6 text-center">
+								<div class="event-wrap animate-box">
+									<h3>Main Ceremony</h3>
+									<div class="event-col">
+										<i class="icon-clock"></i>
+										<span>4:00 PM</span>
+										<span>6:00 PM</span>
+									</div>
+									<div class="event-col">
+										<i class="icon-calendar"></i>
+										<span>Monday 28</span>
+										<span>July, 2021</span>
+									</div>
+									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6 text-center">
+								<div class="event-wrap animate-box">
+									<h3>Wedding Party</h3>
+									<div class="event-col">
+										<i class="icon-clock"></i>
+										<span>7:00 PM</span>
+										<span>12:00 AM</span>
+									</div>
+									<div class="event-col">
+										<i class="icon-calendar"></i>
+										<span>Monday 28</span>
+										<span>November, 2016</span>
+									</div>
+									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -272,125 +375,101 @@
 		</div>
 	</div>
 
-
-	<!-- <div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/img_bg_3.jpg);"> -->
-	<div id="fh5co-event">
-			<div class="fullscreen-bg">
-				<class class = "row"> 
-					<video loop muted autoplay poster="poster.jpg" class="fullscreen-bg__video">
-						<source src="m2.mp4" type="video/mp4">
-					</video>
-				</class>
-			</div>
-	
-		</div>
-	</div>
-
-<!-- Times Limit -->
-	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(4fix.jpg);">
-		<!-- <div class="overlay"></div>
-		<div class="container"> -->
-			<!-- <div class="row">
+	<div id="fh5co-gallery" class="fh5co-section-gray">
+		<div class="container">
+			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>Our Special Events</span>
-					<h2>Wedding Events</h2>
+					<span>Our Memories</span>
+					<h2>Wedding Gallery</h2>
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+				</div>
+			</div>
+			<!-- <div class="row row-bottom-padded-md">
+				<div class="col-md-12">
+					<ul id="fh5co-gallery-list">
+						
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-1.jpg); "> 
+						<a href="images/gallery-1.jpg">
+							<div class="case-studies-summary">
+								<span>14 Photos</span>
+								<h2>Two Glas of Juice</h2>
+							</div>
+						</a>
+					</li>
+					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-2.jpg); ">
+						<a href="#" class="color-2">
+							<div class="case-studies-summary">
+								<span>30 Photos</span>
+								<h2>Timer starts now!</h2>
+							</div>
+						</a>
+					</li>
 
+
+					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-3.jpg); ">
+						<a href="#" class="color-3">
+							<div class="case-studies-summary">
+								<span>90 Photos</span>
+								<h2>Beautiful sunset</h2>
+							</div>
+						</a>
+					</li>
+					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-4.jpg); ">
+						<a href="#" class="color-4">
+							<div class="case-studies-summary">
+								<span>12 Photos</span>
+								<h2>Company's Conference Room</h2>
+							</div>
+						</a>
+					</li>
+
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-5.jpg); ">
+							<a href="#" class="color-3">
+								<div class="case-studies-summary">
+									<span>50 Photos</span>
+									<h2>Useful baskets</h2>
+								</div>
+							</a>
+						</li>
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-6.jpg); ">
+							<a href="#" class="color-4">
+								<div class="case-studies-summary">
+									<span>45 Photos</span>
+									<h2>Skater man in the road</h2>
+								</div>
+							</a>
+						</li>
+
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-7.jpg); ">
+							<a href="#" class="color-4">
+								<div class="case-studies-summary">
+									<span>35 Photos</span>
+									<h2>Two Glas of Juice</h2>
+								</div>
+							</a>
+						</li>
+
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-8.jpg); "> 
+							<a href="#" class="color-5">
+								<div class="case-studies-summary">
+									<span>90 Photos</span>
+									<h2>Timer starts now!</h2>
+								</div>
+							</a>
+						</li>
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-9.jpg); ">
+							<a href="#" class="color-6">
+								<div class="case-studies-summary">
+									<span>56 Photos</span>
+									<h2>Beautiful sunset</h2>
+								</div>
+							</a>
+						</li>
+					</ul>		
 				</div>
 			</div> -->
-			<div class="row">
-				<div class="display-t">
-					<div class="display-tc">
-						<div class="col-md-10 col-md-offset-1">
-							<div class="col-md-6 col-sm-6 text-center">
-							
-								<style>
-									body, html {
-									  height: 100%;
-									  margin: 0;
-									}
-									
-									.bgimg {
-									  background-image: url('/w3images/forestbridge.jpg');
-									  height: 100%;
-									  background-position: center;
-									  background-size: cover;
-									  position: relative;
-									  color: white;
-									  font-family: "Courier New", Courier, monospace;
-									  font-size: 50px;
-									}
-									
-									.topleft {
-									  position: absolute;
-									  top: 0;
-									  left: 16px;
-									}
-									
-									.bottomleft {
-									  position: absolute;
-									  bottom: 0;
-									  left: 16px;
-									}
-									
-									.middle {
-									  position: absolute;
-									  top: 50%;
-									  left: 50%;
-									  transform: translate(-50%, -50%);
-									  text-align: center;
-									}
-									
-									hr {
-									  margin: auto;
-									  width: 40%;
-									}
-									</style>
-									<body>
-			
-										<p style = "font-family:Brush Script MT;font-size:85px;color:black; word-spacing: 10mm; margin-top: 50px; margin-left: 15px; margin-bottom: 0px; margin-right: 10;" id="demo"></p>
-									
-										<!-- Display the countdown timer in an element -->
-										
-										<script>
-											// Set the date we're counting down to
-											var countDownDate = new Date("July 24, 2021 10:00:00").getTime();
-											
-											// Update the count down every 1 second
-											var x = setInterval(function() {
-											
-											// Get today's date and time
-											var now = new Date().getTime();
-											
-											// Find the distance between now and the count down date
-											var distance = countDownDate - now;
-											
-											// Time calculations for days, hours, minutes and seconds
-											var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-											var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-											var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-											var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-											
-											// Display the result in the element with id="demo"
-											document.getElementById("demo").innerHTML = days + " " + hours + " "
-											+ minutes + " " + seconds + " ";
-											
-											// If the count down is finished, write some text
-											if (distance < 0) {
-												clearInterval(x);
-												document.getElementById("demo").innerHTML = "EXPIRED";
-											}
-											}, 1000);
-										</script>
-									</body>
-							</div>
-					
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
 	</div>
-
 
 	<!-- <div id="fh5co-counter" class="fh5co-bg fh5co-counter" style="background-image:url(images/img_bg_5.jpg);">
 		<div class="overlay"></div>
@@ -449,7 +528,7 @@
 
 	<!-- Ini untuk doa Familly -->
 
-	<div id="fh5co-testimonial">
+	<!-- <div id="fh5co-testimonial">
 		<div class="container">
 			<div class="row">
 				<div class="row animate-box">
@@ -501,7 +580,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 <!-- ini service -->
 
