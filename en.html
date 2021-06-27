@@ -53,10 +53,11 @@
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-        <audio hidden autoplay>
-            <source src="musik.mp3" type="audio/mp3">
 
-        </audio>
+        <!-- <audio hidden autoplay>
+            <source src="musik.mp3" type="audio/mp3">
+        </audio> -->
+        <audio id="Audio" src="musik.mp3"></audio>
 
         <div id="balloon" class="soaring"></div>
         <!-- <div id="language-switcher" class="cloud cloud-1"><a href="index.html" title="Открыть русскую версию сайта">По-русски</a></div> -->
@@ -68,6 +69,25 @@
                 <div class="title bride" style="font-size: 30px;">WEDDING</div>
                 <div class="title groom"style="font-size: 30px;">INVITATION</div>
                 <div class="subtitle year">2021</div>
+                
+                <div id="box">
+                    <div class="id">
+                        <a href="#zone-beginning" onClick="togglePlay()"><button type="button"><div class="foto"><img src = "img/mylove.png" width="150px" ></div></button></a>
+                    </div>
+                </div>
+            
+                <script type="text/javascript">
+                    var myAudio = document.getElementById("Audio");
+                    var isPlaying = false;
+                    function togglePlay() {
+                        myAudio.play();
+                        terakhir = document.querySelector('#box');
+                        terakhir.classList.add('hide');
+                        
+                    };
+                    
+                </script>
+
             </div>
         </header>
 
