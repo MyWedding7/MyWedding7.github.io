@@ -322,7 +322,7 @@ footer p a:hover {
     margin-top: -190px;
     width: 609px;
     height: 940px;
-    background: url('../img/balloon.png') no-repeat center top;
+    background: url('../img/balloon.png') no-repeat center;
     z-index: 100;
 }
 
