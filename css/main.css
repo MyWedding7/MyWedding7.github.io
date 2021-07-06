@@ -513,7 +513,7 @@ html.no-touch nav ul li:hover {
 }
 
 #proposal-island {
-    position: absolute;
+/*     position: absolute; */
     left: 0px;
     top: 20%;
     width: 338px;
