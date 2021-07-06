@@ -322,7 +322,7 @@ footer p a:hover {
     margin-top: -190px;
     width: 609px;
     height: 940px;
-    background: url('../img/balloon.png') no-repeat center top;
+    background: url('../img/mybaloon2.png') no-repeat center top;
     z-index: 100;
 }
 
@@ -449,7 +449,7 @@ html.no-touch nav ul li:hover {
     width: 647px;
     height: 141px;
     top: 20%;
-    background: url('../img/meeting.png') center no-repeat;
+    background: url('../img/pasanganfix.png') center no-repeat;
     z-index: 100;
 }
 
@@ -459,7 +459,27 @@ html.no-touch nav ul li:hover {
     top: 35%;
     width: 336px;
     height: 280px;
-    background: url('../img/fall.png') no-repeat;
+    background: url('../img/permuanfiz.png') no-repeat;
+    z-index: 200;
+}
+
+#lovers2 {
+    position: absolute;
+    left: 0px;
+    top: 35%;
+    width: 336px;
+    height: 280px;
+    background: url('../img/chatting.png') no-repeat;
+    z-index: 200;
+}
+
+#lovers3 {
+    position: absolute;
+    left: 0px;
+    top: 35%;
+    width: 336px;
+    height: 280px;
+    background: url('../img/meet2.png') no-repeat;
     z-index: 200;
 }
 
@@ -475,8 +495,8 @@ html.no-touch nav ul li:hover {
 
 #party {
     width: 209px;
-    height: 80px;
-    background: url('../img/party.png') no-repeat;
+    height: 100px;
+    background: url('../img/alamat3.png') no-repeat;
     position: absolute;
     left: 50%;
     bottom: 80px;
@@ -489,7 +509,7 @@ html.no-touch nav ul li:hover {
     right: 0px;
     width: 326px;
     height: 269px;
-    background: url('../img/house.png') no-repeat;
+    background: url('../img/engage3.png') no-repeat;
 }
 
 #proposal-island {
@@ -498,7 +518,7 @@ html.no-touch nav ul li:hover {
     top: 20%;
     width: 338px;
     height: 323px;
-    background: url('../img/proposal.png') no-repeat;
+    background: url('../img/new.png') no-repeat;
     z-index: 200;
 }
 
@@ -508,9 +528,9 @@ html.no-touch nav ul li:hover {
     top: 20%;
     /* width: 118px;
     height: 243px; */
-    width: 150px;
+    width: 200px;
     height: 300px;
-    background: url('../img/protokol2x.png') no-repeat;
+    background: url('../img/meet2.png') no-repeat;
 }
 
 .lightning {
@@ -680,7 +700,7 @@ html.no-touch nav ul li:hover {
     right: 0px;
     width: 372px;
     height: 127px;
-    background: url('../img/dark_cloud3.png') no-repeat;
+    background: url('../img/meet.png') no-repeat;
     z-index: 10;
 
 }
