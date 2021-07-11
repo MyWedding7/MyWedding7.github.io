@@ -489,9 +489,11 @@ html.no-touch nav ul li:hover {
     top: 35%; */
     right : 0px;
     top: 20%;
-    width: 300px;
-    height: 300px;
-    background: url('../img/protokol3.png') center no-repeat;
+    /* width: 300px;
+    height: 300px; */
+    width: 450px;
+    height: 350px;
+    background: url('../img/jadwal2.png') center no-repeat;
     z-index: 200;
 }
 
@@ -522,7 +524,7 @@ html.no-touch nav ul li:hover {
     height: 80px; */
     width: 450px;
     height: 350px;
-    background: url('../img/jadwal2.png') no-repeat;
+    background: url('../img/protokol3.png') no-repeat;
     position: absolute;
     left: 50%;
     bottom: 80px;
@@ -837,10 +839,9 @@ html.no-touch nav ul li:hover {
   }
 
   #Protokol {
-    background-image: url('../img/protokol3.png');
-    background-size: 300px 300px;
+    background: url('../img/jadwal2.png');
+    background-size: 450px 350px;
 }
-
 
   .lightning {
     background-image: url('../img/flash%402x.png');
@@ -882,7 +883,7 @@ html.no-touch nav ul li:hover {
     background-size: 209px 80px;
   } */
   #party {
-    background-image: url('../img/jadwal2.png');
+    background-image: url('../img/protokol3.png');
     background-size: 450px 350px;
   }
 
