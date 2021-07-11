@@ -459,7 +459,7 @@ html.no-touch nav ul li:hover {
     top: 35%;
     width: 336px;
     height: 280px;
-    background: url('../img/permuanfix2.png') no-repeat;
+    background: url('../img/permuanfix3.png') no-repeat;
     z-index: 200;
 }
 
@@ -469,7 +469,7 @@ html.no-touch nav ul li:hover {
     top: 35%;
     width: 336px;
     height: 280px;
-    background: url('../img/chatting2.png') no-repeat;
+    background: url('../img/chatting3.png') no-repeat;
     z-index: 200;
 }
 
@@ -823,16 +823,16 @@ html.no-touch nav ul li:hover {
   }
 
   #lovers {
-    background-image: url('../img/permuanfix2.png');
+    background-image: url('../img/permuanfix3.png');
     background-size: 336px 280px;
   }
   #lovers2 {
-    background-image: url('../img/chatting2.png');
+    background-image: url('../img/chatting3.png');
     background-size: 336px 280px;
   }
 
   #lovers3 {
-    background-image: url('../img/meet2.png') no-repeat;
+    background-image: url('../img/meet2.png');
     background-size: 336px 280px;
   }
 
@@ -893,7 +893,7 @@ html.no-touch nav ul li:hover {
 
   
 #proposal-island {
-    background-image: url('../img/new.png') no-repeat;
+    background-image: url('../img/new.png');
     background-size: 338px 323px;
 }
 
