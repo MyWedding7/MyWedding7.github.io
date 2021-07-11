@@ -784,8 +784,8 @@ html.no-touch nav ul li:hover {
   }
 
   #balloon {
-    background-image: url('../img/mybaloon3x.png');
-    background-size: 1218px 1880px;
+    background-image: url('../img/mybaloon2.png');
+    background-size: 609px 940px;
   }
 
   .cloud-bird {
@@ -884,7 +884,7 @@ html.no-touch nav ul li:hover {
   #party {
     background-image: url('../img/jadwal2.png');
     background-size: 450px 350px;
-}
+  }
 
   /* #proposal-island {
     background-image: url('../img/proposal%402x.png');
