@@ -784,7 +784,7 @@ html.no-touch nav ul li:hover {
   }
 
   #balloon {
-    background-image: url('../img/mybaloon2x.png');
+    background-image: url('../img/mybaloon3x.png');
     background-size: 1218px 1880px;
   }
 
@@ -793,10 +793,14 @@ html.no-touch nav ul li:hover {
     background-size: 48px 32px;
   }
 
-  #the-cake {
+  /* #the-cake {
     background-image: url('../img/cake%402x.png');
     background-size: 147px 169px;
-  }
+  } */
+  #the-cake {
+    background-image: url('../img/Gino3.png');
+    background-size: 300px 250px
+}
 
   .cloud {
     background-image: url('../img/clouds%402x.png');
@@ -819,9 +823,24 @@ html.no-touch nav ul li:hover {
   }
 
   #lovers {
-    background-image: url('../img/fall%402x.png');
+    background-image: url('../img/permuanfix2.png');
     background-size: 336px 280px;
   }
+  #lovers2 {
+    background-image: url('../img/chatting2.png');
+    background-size: 336px 280px;
+  }
+
+  #lovers3 {
+    background-image: url('../img/meet2.png') no-repeat;
+    background-size: 336px 280px;
+  }
+
+  #Protokol {
+    background-image: url('../img/protokol3.png');
+    background-size: 300px 300px;
+}
+
 
   .lightning {
     background-image: url('../img/flash%402x.png');
@@ -838,10 +857,15 @@ html.no-touch nav ul li:hover {
     background-size: 20px 36px;
   }
 
-  #house-island {
+  /* #house-island {
     background-image: url('../img/house%402x.png');
     background-size: 326px 269px;
-  }
+  } */
+
+  #house-island {
+    background: url('../img/engage3.png');
+    background-size: 326px 269px
+}
 
   #zone-in-love p {
     background-image: url('../img/leaves%402x.png');
@@ -849,29 +873,45 @@ html.no-touch nav ul li:hover {
   }
 
   #the-meeting {
-    background-image: url('../img/meeting%402x.png');
+    background-image: url('../img/pasanganfix.png');
     background-size: 647px 141px;
   }
 
-  #party {
+  /* #party {
     background-image: url('../img/party%402x.png');
     background-size: 209px 80px;
-  }
+  } */
+  #party {
+    background-image: url('../img/jadwal2.png');
+    background-size: 450px 350px;
+}
 
-  #proposal-island {
+  /* #proposal-island {
     background-image: url('../img/proposal%402x.png');
     background-size: 338px 323px;
-  }
+  } */
+
+  
+#proposal-island {
+    background-image: url('../img/new.png') no-repeat;
+    background-size: 338px 323px;
+}
 
   header {
     background-image: url('../img/ribbon%402x.png');
     background-size: 1079px 245px;
   }
 
-  #slowpoke {
+  /* #slowpoke {
     background-image: url('../img/protokol2x.png');
     background-size: 116px 241px;
-  }
+  } */
+
+  
+#slowpoke {
+    background-image: url('../img/meet2.png');
+    background-size: 200px 300px;
+}
 
   .hide
   {
