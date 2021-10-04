@@ -459,29 +459,41 @@ html.no-touch nav ul li:hover {
     top: 35%;
     width: 336px;
     height: 280px;
-    background: url('../img/permuanfix3.png') no-repeat;
+    background: url('../gambar/Gino\ Feruci_2.jpg') no-repeat;
     z-index: 200;
 }
 
 #lovers2 {
     position: absolute;
     left: 0px;
-    top: 35%;
+    top: 45%;
     width: 336px;
     height: 280px;
-    background: url('../img/chatting3.png') no-repeat;
+    background: url('../gambar/sesi_2.png') no-repeat;
     z-index: 200;
 }
 
 #lovers3 {
+
+    width: 300px;
+    height: 350px;
+    background: url('../gambar/mykisah1.jpeg') no-repeat;
     position: absolute;
-    left: 0px;
-    top: 35%;
-    width: 336px;
-    height: 280px;
-    background: url('../img/meet2.png') no-repeat;
-    z-index: 200;
+    right: 65%;
+    bottom: 80px;
+    margin-left: 120px;
 }
+
+#lovers4 {
+    width: 300px;
+    height: 350px;
+    background: url('../gambar/mykisah2.jpeg') no-repeat;
+    position: absolute;
+    left: 65%;
+    bottom: 80px;
+    margin-left: 120px;
+}
+
 
 #Protokol {
     position: absolute;
@@ -524,26 +536,52 @@ html.no-touch nav ul li:hover {
     height: 80px; */
     width: 200px;
     height: 300px;
-    background: url('../img/protokol4.png') no-repeat;
+    background: url('../img/gifcik.gif') no-repeat;
     position: absolute;
     left: 50%;
     bottom: 80px;
     margin-left: 120px;
 }
 
+#myjadwal {
+    /* width: 209px;
+    height: 80px; */
+
+    width: 200px;
+    height: 300px;
+    background: url('../gambar/myjadwal.gif') no-repeat;
+    position: absolute;
+    left: 65%;
+    top: 15%;
+    margin-left: 120px;
+}
+
+#kisah3 {
+
+    width: 300px;
+    height: 350px;
+    background: url('../gambar/mykisah3_fix.png') no-repeat;
+    position: absolute;
+    right: 65%;
+    top: 20%;
+    margin-left: 120px;
+}
+
 #house-island {
     position: absolute;
     top: 20%;
-    right: 0px;
+    left: 80%;
     width: 326px;
-    height: 269px;
-    background: url('../img/engage3.png') no-repeat;
+    height: 350px;
+    background: url('../gambar/mykisah4.jpeg') no-repeat;
 }
+
+
 
 #proposal-island {
     position: absolute;
     left: 0px;
-    top: 20%;
+    top: 35%;
     width: 338px;
     height: 323px;
     background: url('../img/new.png') no-repeat;
@@ -799,10 +837,12 @@ html.no-touch nav ul li:hover {
     background-image: url('../img/cake%402x.png');
     background-size: 147px 169px;
   } */
-  #the-cake {
+
+  /* YANG FIX */
+  /* #the-cake {
     background-image: url('../img/Gino3.png');
     background-size: 300px 250px
-}
+} */
 
   .cloud {
     background-image: url('../img/clouds%402x.png');
@@ -825,23 +865,30 @@ html.no-touch nav ul li:hover {
   }
 
   #lovers {
-    background-image: url('../img/permuanfix3.png');
+    background-image: url('../gambar/Gino\ Feruci_2.jpg');
     background-size: 336px 280px;
   }
   #lovers2 {
-    background-image: url('../img/chatting3.png');
+    background-image: url('../gambar/sesi_2.png');
     background-size: 336px 280px;
   }
 
   #lovers3 {
-    background-image: url('../img/meet2.png');
-    background-size: 336px 280px;
+    background-image: url('../gambar/mykisah1.jpeg');
+    background-size: 300px 350px;
   }
 
-  #Protokol {
+  #lovers4 {
+    background-image: url('../gambar/mykisah2.jpeg');
+    background-size: 300px 350px;
+  }
+
+
+
+  /* #Protokol {
     background: url('../img/jadwal4.png');
     background-size: 500px 400px;
-}
+} */
 
   .lightning {
     background-image: url('../img/flash%402x.png');
@@ -863,10 +910,16 @@ html.no-touch nav ul li:hover {
     background-size: 326px 269px;
   } */
 
-  #house-island {
-    background: url('../img/engage3.png');
-    background-size: 326px 269px
+  #kisah3 {
+
+    background: url('../gambar/mykisah3_fix.png') no-repeat;
+    background-size: 300px 350px
 }
+  #house-island {
+    background: url('../gambar/mykisah4.jpeg');
+    background-size: 326px 350px
+}
+
 
   #zone-in-love p {
     background-image: url('../img/leaves%402x.png');
@@ -882,8 +935,15 @@ html.no-touch nav ul li:hover {
     background-image: url('../img/party%402x.png');
     background-size: 209px 80px;
   } */
+
+  /* YANG FIX */
   #party {
-    background-image: url('../img/protokol4.png');
+    background-image: url('../img/gifcik.gif');
+    background-size: 200px 300px;
+  }
+
+  #myjadwal {
+    background-image: url('../gambar/myjadwal.gif');
     background-size: 200px 300px;
   }
 
@@ -961,7 +1021,7 @@ html.no-touch nav ul li:hover {
   .foto2 {
     position: absolute;
     left: 50%;
-    bottom: 60px;
+    top: 55%;
     margin-left: -350px;
 
 }
